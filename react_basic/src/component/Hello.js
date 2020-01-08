@@ -7,7 +7,10 @@ const Hello=()=>{
     //         </div>
     // );
 
-    return React.createElement('div', null, React.createElement('h1',null,'Hello Dilshan'))
+    return React.createElement(
+    'div', 
+    {id:'hello'}, 
+    React.createElement('h1',null,'Hello Dilshan'))
 }
 
 export default Hello
