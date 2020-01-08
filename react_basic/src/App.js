@@ -1,9 +1,10 @@
 import React,{Component} from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import Greet from './component/Greet';
-import Welcome from './component/Welcome'; 
+//import Greet from './component/Greet';
+//import Welcome from './component/Welcome'; 
 //import Hello from './component/Hello';
+import Message from './component/Message';
 
 
 class App extends Component 
@@ -12,9 +13,9 @@ class App extends Component
     {
       return(
         <div className="App"> 
+          <Message/>
          
-         
-          <Greet name="isuru" hero="batman">
+         {/* <Greet name="isuru" hero="batman">
           <p> this is chilren</p>
 
             </Greet>
@@ -29,7 +30,7 @@ class App extends Component
             </Welcome>
           <Welcome name ="dicvxlshan"  hero="sxsdman">
             <p>bcv dsgfv </p>
-            </Welcome>
+      </Welcome> */}
         </div>
       );
     }
