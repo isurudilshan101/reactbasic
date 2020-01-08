@@ -4,7 +4,13 @@ class Welcome extends Component
 {
     render()
         {
-            return <h1>isuru dilshan kumara herath</h1> 
+        return(
+        <div> <h1>Welcome {this.props.name} my hero is {this.props.hero}</h1> 
+        {this.props.children}
+        </div>
+        
+        );
+            
         }
 }
 export default Welcome
