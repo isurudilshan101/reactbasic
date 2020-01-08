@@ -6,7 +6,7 @@ import './App.css';
 import Hello from './component/Hello';
 
 
-class App extends Component
+class App extends Component 
 {
   render()
     {
