@@ -11,12 +11,19 @@ class Message extends Component{
             }
         }
 
-        render()
+        changeMessage(){
+            this.setState({
+                message:'Thank you for subscribing!!!' 
+            })
+        }
+
+
+        render()  
             {
                 return(
                     <div>
-                        <h1>{this.state.massage}</h1>
-                        <button>Subcribe</button>
+                        <h1>{this.state.message}</h1>
+                        <button onClick={()=>this.changeMessage()}>Subcribe</button>
                     </div>
                 )
             }
