@@ -4,7 +4,8 @@ import './App.css';
 //import Greet from './component/Greet';
 //import Welcome from './component/Welcome'; 
 //import Hello from './component/Hello';
-import Message from './component/Message';
+//import Message from './component/Message';
+import Counter from './component/Counter';
 
 
 class App extends Component 
@@ -13,7 +14,8 @@ class App extends Component
     {
       return(
         <div className="App"> 
-          <Message/>
+         {/* <Message/>*/}
+         <Counter/>
          
          {/* <Greet name="isuru" hero="batman">
           <p> this is chilren</p>
